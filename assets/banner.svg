@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="180" viewBox="0 0 1400 180" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="180" fill="#0C1117"/>
+  <text x="70" y="105" fill="#E8EDF2" font-family="Inter,Segoe UI,Arial" font-size="64" font-weight="800" letter-spacing="6">
+    AK-QAEP
+  </text>
+  <rect x="70" y="125" width="1260" height="3" fill="#3A91F7" opacity="0.55"/>
+</svg>

@@ -1,0 +1,5 @@
+Checklist Example
+[ ] UI loads
+[ ] Buttons clickable
+[ ] No console errors
+[ ] Forms submit normally

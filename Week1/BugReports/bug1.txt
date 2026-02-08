@@ -1,0 +1,9 @@
+Bug Report Example
+Title: Suggestion dropdown doesn't load
+Env: Chrome 121, Windows 11
+Steps:
+1. Open amazon.ca
+2. Type 'abc' in search bar
+Expected: Suggestions appear
+Actual: Spinner freezes, 500 error
+Status: NEW

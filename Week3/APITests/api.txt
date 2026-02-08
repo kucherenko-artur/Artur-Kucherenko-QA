@@ -1,0 +1,6 @@
+API CRUD Tests
+GET /items -> 200
+POST /items -> 201
+DELETE /items/ID -> 204
+NEGATIVE:
+POST /items invalid body -> 400

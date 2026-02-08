@@ -1,0 +1,7 @@
+Test Case Example
+Title: Search field basic functionality
+Steps:
+1. Open homepage
+2. Click search field
+3. Enter valid query
+Expected: Redirect to results page
