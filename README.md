@@ -1,7 +1,12 @@
 <h1 align="center">Artur Kucherenko — QA Engineer Portfolio</h1>
+
+<p align="center">
+  <strong>Practical QA Portfolio with real bug reports, structured test cases, API testing and DevTools investigations — built to showcase professional QA skills.</strong>
+</p>
+
 <p align="center">
   <a href="https://github.com/kucherenko-artur/Artur-Kucherenko-QA">
-    <img src="./assets/banner.png" width="340" style="border-radius:16px; display:block;" alt="QA Portfolio">
+    <img src="./assets/banner.png" width="340" style="border-radius:16px; margin:0 auto;" alt="QA Portfolio" />
   </a>
 </p>
 
@@ -9,17 +14,19 @@
   <a href="./BugReports/">
     <img src="./assets/badges/neon/bug.svg" alt="Bug Reporting" height="42">
   </a>
+
   <a href="./API/">
     <img src="./assets/badges/neon/api.svg" alt="API Testing" height="42">
   </a>
+
   <a href="./Week1/">
     <img src="./assets/badges/neon/manual.svg" alt="Manual Testing" height="42">
   </a>
+
   <a href="./Docs/">
     <img src="./assets/badges/neon/docs.svg" alt="Documentation" height="42">
   </a>
 </p>
-
 
 ---
 
