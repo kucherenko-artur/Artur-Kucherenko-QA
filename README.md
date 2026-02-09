@@ -3,11 +3,20 @@
   <img src="./assets/banner.png" width="340" style="border-radius:16px;" />
 </p>
 <p align="center">
-  <img src="./assets/badges/neon/manual.svg" height="34" />
-  <img src="./assets/badges/neon/api.svg" height="34" />
-  <img src="./assets/badges/neon/bug.svg" height="34" />
-  <img src="./assets/badges/neon/docs.svg" height="34" />
+  <a href="./BugReports/">
+    <img src="./assets/badges/neon/bug.svg" alt="Bug Reporting" height="42">
+  </a>
+  <a href="./API/">
+    <img src="./assets/badges/neon/api.svg" alt="API Testing" height="42">
+  </a>
+  <a href="./Week1/">
+    <img src="./assets/badges/neon/manual.svg" alt="Manual Testing" height="42">
+  </a>
+  <a href="./Docs/">
+    <img src="./assets/badges/neon/docs.svg" alt="Documentation" height="42">
+  </a>
 </p>
+
 
 ---
 
