@@ -28,151 +28,143 @@
 </p>
 
 ---
+# 🧪 Artur Kucherenko — QA Portfolio
 
-## Featured work
-- ⭐ [Bug Report (PDF) — Email Validation](./BugReports/BR-003_Email_Validation.pdf)
-- ⭐ [Test Case — Search field accepts typing and navigates to results](./Week2/TestCases/2026-01-21_TC-0202_Search_field_accepts_typing_and_navigates_to_results.md)
-- ⭐ [API / DevTools — 302 redirect follow](./API/HTTP%20Status%20%26%20Fetch%20(DevTools)/API_Test_010_Redirect_302_Follow/README.md)
-
-## Highlights
-- ✅ **10+ Bug Reports** (Markdown + PDF): Steps, Expected/Actual, Severity/Priority, Environment, Evidence  
-- ✅ **Structured Test Cases** (Weeks 1–3): Preconditions, Steps, Expected Results, Negative Scenarios  
-- ✅ **API Testing** (Postman + DevTools): positive/negative, auth/permissions edges, HTTP status analysis  
-- ✅ **Evidence folder**: screenshots/videos supporting key findings  
-
-### Tech Stack
-<p align="center">
-  <img src="https://img.shields.io/badge/Chrome%20DevTools-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-F76935?style=for-the-badge&logo=postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
-</p>
+Welcome!  
+This repository contains real, structured QA work including bug reports, API test cases, evidence, and documentation.  
+All materials are prepared in a clean, industry-standard format to demonstrate professional QA skills.
 
 ---
 
-# 🔗 Quick Navigation
- 
-- 🐞 **[Bug Reports](BugReports/)**  
-- 🧪 **[Test Cases](Week1/)**  
-- 🔌 **[API Testing](API/)**  
-- 📂 **[Week 1](Week1/)** — Fundamentals  
-- 📂 **[Week 2](Week2/)** — Functional Testing  
-- 📂 **[Week 3](Week3/)** — API + HTTP Status  
-- 📸 **[Evidence](Evidence/)** — Screenshots, Videos  
-- 📄 **[Docs](Docs/)** — Templates & Instructions  
+# 👨‍💻 About Me
+
+I am a detail-oriented Quality Assurance specialist with strong analytical skills, the ability to break complex systems into predictable components, and the discipline to document everything clearly and professionally.
+
+I focus on:
+
+- Clean and structured documentation  
+- Consistency across all test artifacts  
+- Realistic, reproducible bug reports  
+- API testing using DevTools & Fetch  
+- Creating complete evidence packages (screenshots, logs, headers)
+
+My goal is to combine **technical precision** with **logical thinking** to deliver high-quality testing results.
 
 ---
 
-### 📌 Weeks – What’s Inside
+# 🛠 Tech Stack & Tools
 
-**Week 1 — Fundamentals**  
-UI/UX checks, first bug reports, basic test cases, DevTools basics  
+**Testing Tools:**  
+- Chrome DevTools  
+- Postman  
+- Fetch API  
+- HAR & Network logs  
+- Browser console diagnostics
 
-**Week 2 — Functional Testing**  
-Validation, edge/boundary testing, negative scenarios, extended structured test cases  
+**Documentation:**  
+- Markdown (MD)  
+- PDF reporting  
+- Structured evidence folders  
+- Screenshots with annotations
 
-**Week 3 — API + HTTP Status**  
-Postman + DevTools Network, 200–503 code analysis, auth/permissions testing, schema sanity  
-
----
-
-## 📁 Portfolio Structure Overview
-
-### 🐞 Bug Reports (PDF + Markdown)
-Each bug report follows a consistent professional format:
-- Summary  
-- Preconditions  
-- Steps to Reproduce  
-- Expected Result  
-- Actual Result  
-- Severity / Priority  
-- Environment  
-- Evidence  
-
-👉 Index: **[BugReports_Index.md](./BugReports/BugReports_Index.md)**  
-👉 Folder: **[BugReports/](./BugReports/)**
+**Technologies:**  
+- HTTP / HTTPS  
+- Status codes  
+- Redirect chains  
+- JSON payloads  
+- API endpoints  
+- Frontend validation logic
 
 ---
 
-### 🧪 Test Cases (Weeks 1–3)
-Structured test cases include:
-- Preconditions  
-- Steps  
-- Expected Results  
-- Functional & Negative Scenarios  
-- Priority / Status  
+# 🗂 Repository Structure
 
-👉 Week 1: **[Week1/](./Week1/)**  
-👉 Week 2: **[Week2/](./Week2/)**  
-👉 Week 3: **[Week3/](./Week3/)**
+
+
+Every folder contains:
+- README.md (case description)
+- Evidence (screenshots)
+- Additional documentation (if needed)
 
 ---
 
-### 🔌 API Testing (Postman + DevTools)
-API tests cover:
-- GET / POST / PUT / DELETE  
-- Positive & negative tests  
-- Auth / permission edge cases  
-- HTTP status analysis  
-- DevTools Network inspection  
+# 🐛 Bug Reports Overview
 
-👉 Folder: **[API/](./API/)**
+All bug reports follow a unified structure:
 
----
+- **Title / Summary**  
+- **Preconditions**  
+- **Steps to Reproduce**  
+- **Expected Result**  
+- **Actual Result**  
+- **Severity & Priority**  
+- **Environment**  
+- **Evidence (screenshots / logs)**
 
-### 🖼 Evidence Folder
-Screenshots & recordings supporting findings in bug reports and test cases.  
-👉 Folder: **[Evidence/](./Evidence/)**
+Severity levels:
 
----
+| Severity | Meaning |
+|----------|---------|
+| Critical | Blocks core functionality |
+| High | Significant functional issue |
+| Medium | UX or workflow affected |
+| Low | Minor UI inconsistency |
 
-## 🧑‍💻 About Me
-I am a detail-oriented **Manual QA Engineer** focused on structured testing, clear documentation, and reproducible results.
+Priority levels:
 
-Hands-on experience includes:
-- UI/UX & functional testing  
-- Exploratory testing  
-- API testing (Postman, DevTools)  
-- Bug reporting  
-- Test case design  
-- HTTP status analysis  
-- Validation & negative testing  
+| Priority | Meaning |
+|----------|---------|
+| High | Must be fixed ASAP |
+| Medium | Fix before release |
+| Low | Can wait |
 
-This portfolio contains real testing artifacts created using industry-standard QA practices.
-
----
-
-## 🛠 How This Portfolio Was Built
-This portfolio was created through a structured workflow including:
-- UI/UX & functional testing  
-- Exploratory testing on live environments  
-- API testing using Postman & DevTools  
-- HTTP status analysis  
-- Structured bug reporting (Markdown + PDF)  
-- Test case design with Preconditions, Steps, Expected Results  
-- Evidence collection  
+You can open the full list here:  
+👉 **BugReports/BugReports_Index.md**
 
 ---
 
-## Additional Bug Reports
+# 🌐 API Test Cases
 
-### UI Testing Playground
-- [BR-011 UITAP — ProgressBar exceeds 100%](./BugReports/BR-011_UITAP_ProgressBar_Exceeds100.md)
-- [BR-012 UITAP — Upload text invisible until selected](./BugReports/BR-012_UITAP_Upload_TextInvisible.md)
-- [BR-013 UITAP — Verify Text inconsistent sample text](./BugReports/BR-013_UITAP_VerifyText_InconsistentSampleText.md)
+Each API case includes:
 
-### ToolsQA / DemoQA
-- [BR-014 ToolsQA — Ads overlay + console errors](./BugReports/BR-014_ToolsQA_AdsOverlay_ConsoleErrors.md)
+- Purpose  
+- Endpoint  
+- Request method  
+- Expected vs Actual behavior  
+- Console & Network evidence  
+- Headers, redirect chains, payloads  
+- Clear explanations of the HTTP mechanics  
 
-## Evidence & Environment
-- [Environment snapshot](./Evidence/Environment/ENV_2026-02-09_snapshot.md)
-- [Raw screenshots folder](./Evidence/Screenshots/Raw/)
+API tests included:
 
+- 401 Unauthorized  
+- 204 No Content  
+- 302 Redirect (with automatic follow)  
+- 418 I’m a Teapot  
+- 500 Internal Server Error  
+- 503 Service Unavailable  
+- POST JSON → 200 OK
 
 ---
 
-## ✉️ Contact
-📧 **Email:** kucherenko1988artur1988@gmail.com  
+# 📞 Contact
 
-<p align="center">Thanks for reviewing my portfolio!</p>
+If you would like to connect or review work samples:
+
+**Email:** Kucherenko1988artur1988@gmail.com  
+**GitHub:** https://github.com/kucherenko-artur
+
+---
+
+# ⭐ Final Notes
+
+This portfolio is built to show:
+- Consistency  
+- Accuracy  
+- Clear test thinking  
+- Ability to document bugs professionally  
+- Understanding of HTTP and API behavior  
+- Real evidence, not synthetic examples  
+
+Thank you for reviewing this portfolio!
+
