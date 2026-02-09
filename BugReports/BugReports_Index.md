@@ -1,25 +1,21 @@
 # 📚 Bug Reports Index
 
-Полный список багов с ссылками и кратким описанием.
+This file provides a quick navigation list of all bug reports included in this portfolio.
 
----
+## Contents
+- Each bug report is stored as a Markdown file in this folder.
+- PDF versions (if present) are provided for easy sharing with recruiters.
 
-## Functional
-- **BR-004** — Cart Quantity Not Updating  
-- **BR-006** — Filter Returns Incorrect Results  
-- **BR-007** — API Profile 401 Error  
+## Bug Reports
+- **BR-001** — Search Suggestions (delay / incorrect behavior)
+- **BR-002** — UI: Button Misalignment
+- **BR-003** — Email Validation
+- **BR-004** — Cart Not Updating
+- **BR-005** — UI: Dropdown Overlap
+- **BR-006** — Filter Returns Incorrect Results
+- **BR-007** — API: Profile 401 Error
+- **BR-008** — Responsive Image Issue
+- **BR-009** — Phone Field Allows Letters
+- **BR-010** — Promo Banner Overlap
 
-## UI
-- BR-002 — Button Misalignment  
-- BR-005 — Dropdown Overlap  
-- BR-008 — Responsive Image Issue  
-- BR-010 — Promo Banner Overlap  
-
-## Validation
-- BR-003 — Email Validation  
-- BR-009 — Phone Field Allows Letters  
-
-## Search
-- BR-001 — Search Suggestions Delay
-
----
+> Note: The exact list may grow over time as new reports are added.

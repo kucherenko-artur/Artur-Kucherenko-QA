@@ -1,27 +1,20 @@
-# 🐛 Bug Reports — QA Portfolio (Artur)
+# 🐛 Bug Reports — Overview
 
-Этот раздел содержит тщательно оформленные баг-репорты уровня Middle/Senior QA, созданные на основе реальных сценариев тестирования.
+This folder contains bug reports prepared as part of my QA portfolio.
 
-## 📂 Структура
-Каждый баг оформлен в двух форматах:
-- `.md` — удобен для чтения прямо на GitHub
-- `.pdf` — для отправки рекрутерам / компаниям
+## What’s inside
+Each report typically includes:
+- Summary / Title
+- Preconditions
+- Steps to Reproduce
+- Expected Result vs Actual Result
+- Severity / Priority
+- Environment
+- Evidence (screenshots, recordings, console/network logs)
 
-## 🎯 Используемая классификация
-### Severity
-| Уровень | Значение |
-|--------|----------|
-| Critical | Блокирует функционал |
-| High | Важная функциональность не работает |
-| Medium | Частично влияет на UX |
-| Low | UI-несоответствия |
+## Formats
+- **.md** — readable directly on GitHub
+- **.pdf** — convenient to send to recruiters / companies (if available)
 
-### Priority
-| Уровень | Значение |
-|--------|----------|
-| High | Исправить в первую очередь |
-| Medium | Исправить до релиза |
-| Low | Может ждать |
-
-## 📝 Список багов
-Смотри **BugReports_Index.md**.
+## Index
+See **BugReports_Index.md** for a quick list of reports.
