@@ -1,79 +1,52 @@
+# Artur Kucherenko — QA Engineer Portfolio
 
-<p align="center">
-  <a href="https://github.com/kucherenko-artur/Artur-Kucherenko-QA">
-    <img src="./assets/banner.png" width="320" style="border-radius:16px; margin:0 auto;" alt="QA Portfolio Banner" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="./BugReports/"><img src="./assets/badges/neon/bug.svg" alt="Bug Reporting" height="42" /></a>
-  <a href="./API/"><img src="./assets/badges/neon/api.svg" alt="API Testing" height="42" /></a>
-  <a href="./Week1/"><img src="./assets/badges/neon/manual.svg" alt="Manual Testing" height="42" /></a>
-  <a href="./Docs/"><img src="./assets/badges/neon/docs.svg" alt="Documentation" height="42" /></a>
-</p>
+Practical QA portfolio with real bug reports, structured test cases, API testing, and DevTools investigations — built to showcase professional QA skills.
 
 ---
 
-# Artur Kucherenko — QA Portfolio
+## 🧪 Artur Kucherenko — QA Portfolio
 
 Welcome!  
 This repository contains real, structured QA work including bug reports, API test cases, evidence, and documentation.  
-All materials are prepared in a clean, industry-standard format to demonstrate professional QA skills.
+All materials are prepared following industry-standard QA practices.
 
 ---
 
-# About Me
+## 👨‍💻 About Me
 
-I am a detail-oriented Quality Assurance specialist with strong analytical skills, the ability to break complex systems into predictable components, and the discipline to document everything clearly and professionally.
+I am a detail-oriented Quality Assurance specialist with strong analytical thinking and the ability to break complex systems into predictable, testable components.
 
 I focus on:
 
 - Clean and structured documentation  
-- Consistency across all test artifacts  
-- Realistic, reproducible bug reports  
-- API testing using DevTools & Fetch  
-- Creating complete evidence packages (screenshots, logs, headers)
+- Reproducible bug reports  
+- Accurate API testing  
+- DevTools-based debugging  
+- Evidence-rich test artifacts  
 
-Based in Canada, open to full-time, remote, or hybrid roles.  
-Work Permit: Active.
-
----
-
-# Professional Summary
-
-Quality Assurance Engineer with strong analytical thinking, attention to detail, and the ability to decompose complex systems into clean, testable components.  
-Experienced in API testing, manual testing, bug reporting, and DevTools investigations.
-
-Seeking opportunities to join a product-focused team and contribute to quality, stability, and continuous improvement.
+Based in **Canada**.  
+Work Permit: **Active**.  
+Open to **remote**, **hybrid**, or **on-site** roles.
 
 ---
 
-# Tech Stack & Tools
+## 🌟 Professional Summary
 
-**Testing Tools:**  
-- Chrome DevTools  
-- Postman  
-- Fetch API  
-- HAR & Network logs  
-- Browser console diagnostics  
+QA Engineer with practical experience in API testing, UI testing, DevTools diagnostics, and documenting complex issues in a clear and structured way.
 
-**Documentation:**  
-- Markdown (MD)  
-- PDF reporting  
-- Structured evidence folders  
-- Screenshots with annotations  
-
-**Technologies:**  
-- HTTP / HTTPS  
-- Status codes  
-- Redirect chains  
-- JSON payloads  
-- API endpoints  
-- Frontend validation logic  
+Driven by precision, logic, and consistency.
 
 ---
 
-# Skills Matrix
+## 🛠 Tech Stack & Tools
+
+**Testing Tools:** Chrome DevTools, Postman, Fetch API, HAR files  
+**Documentation:** Markdown, PDF, annotated screenshots  
+**Technologies:** HTTP/HTTPS, redirects, JSON, status codes, REST APIs  
+
+---
+
+## 🧩 Skills Matrix
 
 | Skill Category      | Tools / Knowledge                                   | Level     |
 |---------------------|------------------------------------------------------|-----------|
@@ -86,8 +59,9 @@ Seeking opportunities to join a product-focused team and contribute to quality, 
 
 ---
 
-# Repository Structure
+## 📁 Repository Structure
 
+```
 Artur-Kucherenko-QA/
 │
 ├── API/
@@ -122,10 +96,11 @@ Artur-Kucherenko-QA/
 └── assets/
     ├── banner.png
     └── badges/
+```
 
 ---
 
-# Bug Reports Overview
+## 🐛 Bug Reports Overview
 
 All bug reports follow a unified structure:
 
@@ -138,67 +113,47 @@ All bug reports follow a unified structure:
 - Environment  
 - Evidence (screenshots / logs)
 
-Severity levels:
-
-| Severity | Meaning |
-|----------|---------|
-| Critical | Blocks core functionality |
-| High     | Significant functional issue |
-| Medium   | UX or workflow affected |
-| Low      | Minor UI inconsistency |
-
-Priority levels:
-
-| Priority | Meaning |
-|----------|---------|
-| High   | Must be fixed ASAP |
-| Medium | Fix before release |
-| Low    | Can wait |
-
 ---
 
-# API Test Cases
+## 🌐 API Test Cases
 
-Each API case includes:
-
-- Purpose  
-- Endpoint  
-- Request method  
-- Expected vs Actual behavior  
-- Console & Network evidence  
-- Headers, redirect chains, payloads  
-- Clear explanations of the HTTP mechanics  
-
-API tests included:
+Includes tests for:
 
 - 401 Unauthorized  
 - 204 No Content  
-- 302 Redirect (with automatic follow)  
+- 302 Redirect (with auto-follow)  
 - 418 I’m a Teapot  
 - 500 Internal Server Error  
 - 503 Service Unavailable  
 - POST JSON → 200 OK  
 
+Each case includes:
+
+- Purpose  
+- Endpoint  
+- Method  
+- Expected vs Actual  
+- Network & Console evidence  
+- Redirect chains  
+- Headers  
+
 ---
 
-# Contact
+## 📞 Contact
 
-Email: Kucherenko1988artur1988@gmail.com  
-GitHub: https://github.com/kucherenko-artur  
+📧 Email: **Kucherenko1988artur1988@gmail.com**  
+🐙 GitHub: **https://github.com/kucherenko-artur**
 
 ---
 
-# Final Notes
+## ⭐ Final Notes
 
 This portfolio is built to show:
 
-- Consistency  
-- Accuracy  
-- Clear test thinking  
-- Ability to document bugs professionally  
-- Understanding of HTTP and API behavior  
+- Clean structure  
+- Logical thinking  
+- Precision in testing  
+- Professional QA documentation  
 - Real evidence, not synthetic examples  
 
 Thank you for reviewing this portfolio!
-
-
