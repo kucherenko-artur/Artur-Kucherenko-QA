@@ -45,10 +45,7 @@
 </p>
 
 ---
-diff --git a/README.md b/README.md
---- a/README.md
-+++ b/README.md
-@@ -1,6 +1,6 @@
+
  # 🔗 Quick Navigation
  
  - 🐞 **[Bug Reports](BugReports/)**  
