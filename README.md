@@ -1,114 +1,171 @@
 <h1 align="center">Artur Kucherenko — QA Engineer Portfolio</h1>
 
 <p align="center">
-  <strong>Practical QA Portfolio with real bug reports, structured test cases, API testing and DevTools investigations — built to showcase professional QA skills.</strong>
+  <strong>Practical QA Portfolio with real bug reports, structured test cases, API testing and DevTools investigations.</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/kucherenko-artur/Artur-Kucherenko-QA">
-    <img src="./assets/banner.png" width="340" style="border-radius:16px; margin:0 auto;" alt="QA Portfolio" />
+    <img src="./assets/banner.png" width="300" style="border-radius:16px; margin:0 auto;" alt="QA Portfolio" />
   </a>
 </p>
 
 <p align="center">
-  <a href="./BugReports/">
-    <img src="./assets/badges/neon/bug.svg" alt="Bug Reporting" height="42">
-  </a>
-
-  <a href="./API/">
-    <img src="./assets/badges/neon/api.svg" alt="API Testing" height="42">
-  </a>
-
-  <a href="./Week1/">
-    <img src="./assets/badges/neon/manual.svg" alt="Manual Testing" height="42">
-  </a>
-
-  <a href="./Docs/">
-    <img src="./assets/badges/neon/docs.svg" alt="Documentation" height="42">
-  </a>
+  <a href="./BugReports/"><img src="./assets/badges/neon/bug.svg" alt="Bug Reporting" height="42"></a>
+  <a href="./API/"><img src="./assets/badges/neon/api.svg" alt="API Testing" height="42"></a>
+  <a href="./Week1/"><img src="./assets/badges/neon/manual.svg" alt="Manual Testing" height="42"></a>
+  <a href="./Docs/"><img src="./assets/badges/neon/docs.svg" alt="Documentation" height="42"></a>
 </p>
 
 ---
 
-# 🔗 Quick Navigation
-
-- 🐞 **[Bug Reports](BugReports/)**  
-- 🧪 **[Test Cases](Week1/)**  
-- 🔌 **[API Testing](API/)**  
-- 📂 **[Week 1](Week1/)** — Fundamentals  
-- 📂 **[Week 2](Week2/)** — Functional Testing  
-- 📂 **[Week 3](Week3/)** — API + HTTP Status  
-- 📸 **[Evidence](Evidence/)** — Screenshots, Videos  
-- 📄 **[Docs](Docs/)** — Templates & Instructions  
+### ⭐ Highlights
+- 10+ real bug reports (Markdown + PDF)
+- Structured test cases (Weeks 1–3)
+- API testing (Postman + DevTools)
+- Evidence folder with screenshots/videos
 
 ---
 
+### 🛠 Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Chrome%20DevTools-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  <img src="https://img.shields.io/badge/Postman-F76935?style=for-the-badge&logo=postman&logoColor=white" />
+  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+</p>
+
+---
+
+## 📁 Portfolio Structure Overview
+
+### 🐞 Bug Reports
+- Preconditions  
+- Steps to Reproduce  
+- Expected vs Actual  
+- Severity/Priority  
+- Evidence  
+
+---
+
+### 🧪 Test Cases
+- Preconditions  
+- Steps  
+- Expected Results  
+- Functional & Negative Scenarios  
+
+---
+
+### 🔌 API Testing
+- Positive/Negative flows  
+- Auth tests  
+- HTTP status analysis  
+- DevTools Network inspection  
+
+---
+
+### 🖼 Evidence
+Screenshots & screen recordings supporting reports and cases.
+
+---
+
+## 🔗 Quick Navigation
+- 🐞 **[Bug Reports](BugReports/)**
+- 🧪 **[Test Cases](Week1/)**
+- 🔌 **[API Testing](API/)**
+- 📘 **[Week 1](Week1/)**
+- 📙 **[Week 2](Week2/)**
+- 📗 **[Week 3](Week3/)**
+- 📸 **[Evidence](Evidence/)**
+- 📄 **[Docs](Docs/)**
+
+---
+
+## 🧑‍💻 About Me
+Manual QA Engineer focused on structured testing, clear documentation, and reproducible results.  
+Experience includes UI/UX testing, exploratory testing, API analysis, bug reporting, and DevTools investigation.
+
+👉 **Full portfolio with detailed explanations:**  
+📄 **[Portfolio_Full.md](Docs/Portfolio_Full.md)**
+
+---
+
+<p align="center">Thanks for reviewing my work!</p>
+
 # 🧑‍💻 About Me
 
-I am a detail-oriented **Manual QA Engineer** with practical experience in:
+I am a detail-oriented **Manual QA Engineer** with hands-on experience in:
 
-- UI/UX & Functional Testing  
-- Exploratory Testing  
-- API Testing (Postman, DevTools)  
-- Bug Reporting (professional format, reproducible steps)  
-- Test Case Design  
-- HTTP Status Code Analysis  
-- DevTools Investigation  
-- Validation & Negative Testing  
+- UI/UX & functional testing  
+- Exploratory testing  
+- API testing (Postman, DevTools)  
+- Bug reporting (professional format)  
+- Test case design  
+- HTTP status analysis  
+- DevTools network debugging  
+- Negative testing & input validation  
 
-This portfolio contains real testing artifacts created following QA industry standards.
+My portfolio demonstrates real testing artifacts built according to industry standards.
 
 ---
 
 # 📁 Portfolio Structure
 
-### **Week 1 — Web Testing Fundamentals**
+## **Week 1 — Web Testing Fundamentals**
 - UI/UX testing  
-- DevTools basics  
+- Basic DevTools usage  
 - First bug reports  
-- Initial test cases  
-- Basic checklists  
+- Intro test cases  
+- Initial checklists  
 
-### **Week 2 — Functional Testing**
-- Negative / boundary testing  
+---
+
+## **Week 2 — Functional Testing**
+- Negative/boundary testing  
 - Input validation  
-- Mid-level bug reports  
-- Extended test cases  
+- Extended bug reports  
+- More structured test cases  
 
-### **Week 3 — API Testing**
+---
+
+## **Week 3 — API Testing**
 - Postman collections  
 - Manual API requests  
-- HTTP status research  
+- HTTP status exploration  
 - API bug reports  
 
 ---
 
 # 🐞 Bug Reports (PDF + Markdown)
 
-All bug reports follow a unified professional format:
+Every bug report follows a consistent format:
 
 - Summary  
+- Preconditions  
 - Steps to Reproduce  
-- Expected vs Actual  
+- Expected Result  
+- Actual Result  
 - Severity / Priority  
 - Environment  
 - Evidence  
 
-👉 **Full Index:**  
-📄 **[BugReports_Index.md](BugReports/BugReports_Index.md)**
+👉 Index:  
+📄 **[BugReports_Index.md](../BugReports/BugReports_Index.md)**
 
-👉 **BugReports folder:**  
-📁 **[BugReports/](BugReports/)**
+👉 Folder:  
+📁 **[BugReports](../BugReports/)**
 
-Each bug includes both:
-- `.md` (for GitHub readability)  
-- `.pdf` (for recruiters / HR)  
+Each bug includes:  
+- `.md` (GitHub readable)  
+- `.pdf` (recruiter-friendly)  
 
 ---
 
 # 🧪 Test Cases
 
-Test cases follow standardized QA documentation style, including:
+Standardized documentation format:
 
 - Preconditions  
 - Steps  
@@ -117,39 +174,37 @@ Test cases follow standardized QA documentation style, including:
 - Priority  
 - Status  
 
-👉 All Test Cases:  
-📁 **[Week1/](Week1/)**  
-📁 **[Week2/](Week2/)**  
-📁 **[Week3/](Week3/)**  
-
-(More sections will be added as the portfolio grows.)
+👉 Test cases by week:  
+📁 [Week1](../Week1/)  
+📁 [Week2](../Week2/)  
+📁 [Week3](../Week3/)  
 
 ---
 
-# 🔌 API Testing (Postman & DevTools)
+# 🔌 API Testing
 
 API tests include:
 
-- GET / POST / PUT / DELETE requests  
-- Positive & Negative tests  
-- Authentication flows  
-- Edge case validation  
+- GET / POST / PUT / DELETE  
+- Positive & negative tests  
+- Auth flows  
+- Boundary analysis  
 - Manual HTTP experiments  
-- Error code research (200, 204, 401, 403, 418, 500, 503...)  
+- Error codes (200, 204, 400, 401, 403, 418, 500, 503…)  
 
-👉 API Folder:  
-📁 **[API/](API/)**
+👉 Folder:  
+📁 **[API](../API/)**
 
 ---
 
 # 🔧 Tools & Technologies
 
 - **Browsers:** Chrome, Firefox  
-- **API:** Postman, DevTools  
-- **Documentation:** Markdown, PDF  
-- **Version Control:** Git, GitHub  
+- **API Tools:** Postman, DevTools  
+- **Docs:** Markdown, PDF  
+- **Version control:** Git, GitHub  
 - **OS:** Windows 11  
-- **Other:** ShareX, VS Code, GitLens  
+- **Utilities:** ShareX, VS Code, GitLens  
 
 ---
 
@@ -159,4 +214,4 @@ API tests include:
 
 ---
 
-<p align="center">Thanks for reviewing my portfolio!</p>
+<p align="center">Thank you for reviewing my full portfolio!</p>
