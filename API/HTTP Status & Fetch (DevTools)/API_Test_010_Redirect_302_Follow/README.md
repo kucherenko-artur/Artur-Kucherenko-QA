@@ -1,33 +1,38 @@
-HTTP 302 Redirect + Automatic Follow
+# HTTP 302 Redirect + Automatic Follow
 
-Goal: Understand the difference between what we see in the console (final status) and what appears in the Network tab (redirect chain).
+## Purpose
+Demonstrate how browsers automatically follow `302` redirects and why the final status shown in the **Console** may differ from the initial redirect response visible in **Network**.
 
-Request
+## Request Details
+- **Endpoint:** `https://httpbin.org/status/302` (redirects to `/redirect/1`)
+- **Tool:** Chrome DevTools → Console / Network
+- **Method:** See screenshots in the `evidence/` folder
 
-Endpoint: https://httpbin.org/status/302 (redirects to /redirect/1)
+## Expected Result
+- The **first** request in the Network panel should return:
+  - `302 Found`
+  - A `Location` header (e.g., `/redirect/1`)
+- After the automatic follow, the **final** request may return:
+  - `200 OK`
 
-Tool: Chrome DevTools → Console / Network
+This demonstrates how redirect chains work internally.
 
-Method: See screenshots (Console/Network)
+## Actual Result
+- **Console:** Displays only the final status — `Status: 200`
+- **Network:** Shows the redirect chain:
+  - `302 Found`
+  - `Location: /redirect/1`
+  - Follow-up request ending with `200 OK`
 
-Expected Result
+## Evidence
+Screenshots are located in the `evidence/` folder:
+- Console output
+- Network request list
+- Redirect response headers
 
-The Network tab should show a 302 status with a Location header, while the final request after the automatic follow may end with 200.
-
-Actual Result
-
-The console shows Status: 200 (final status after the follow), while in the Network tab you can see 302 Found and Location: /redirect/1.
-
-Evidence
-
-Screenshots are located in the evidence/ folder.
-
-Notes
-
-This is a training case for a QA portfolio (API/DevTools).
-
-In a real project, this section would also include: reproduction steps, environment (OS/Browser), priority/severity, etc.
-# HTTP 302 Redirect + автоматический follow
+## Notes
+- Training case for a QA portfolio (API/DevTools).
+- In a real project, this would also include: reproduction steps, environment (OS/Browser), severity/priority, and additional logs (e.g., HAR).
 
 **Цель:** Понять разницу между тем, что видим в console (итоговый status) и тем, что видно в Network (цепочка редиректов).
 
