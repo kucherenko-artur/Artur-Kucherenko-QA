@@ -45,17 +45,25 @@
 </p>
 
 ---
-
-## 🔗 Quick Navigation
-- 🐞 **Bug Reports (Index)** → **[BugReports_Index.md](./BugReports/BugReports_Index.md)**
-- 🐞 **Bug Reports (Folder)** → **[BugReports/](./BugReports/)**
-- 🧪 **Test Cases (Week 1)** → **[Week1/](./Week1/)**
-- 🧪 **Test Cases (Week 2)** → **[Week2/](./Week2/)**
-- 🧪 **Test Cases (Week 3)** → **[Week3/](./Week3/)**
-- 🔌 **API Testing** → **[API/](./API/)**
-- 📸 **Evidence** → **[Evidence/](./Evidence/)**
-- 📄 **Docs** → **[Docs/](./Docs/)**
-- 🧰 **Templates** → **[Templates/](./Templates/)**
+diff --git a/README.md b/README.md
+--- a/README.md
++++ b/README.md
+@@ -1,6 +1,6 @@
+ # 🔗 Quick Navigation
+ 
+ - 🐞 **[Bug Reports](BugReports/)**  
+ - 🧪 **[Test Cases](Week1/)**  
+ - 🔌 **[API Testing](API/)**  
+ - 📂 **[Week 1](Week1/)** — Fundamentals  
+ - 📂 **[Week 2](Week2/)** — Functional Testing  
+ - 📂 **[Week 3](Week3/)** — API + HTTP Status  
+ - 📸 **[Evidence](Evidence/)** — Screenshots, Videos  
+ - 📄 **[Docs](Docs/)** — Templates & Instructions  
++
++### 📌 Weeks (what’s inside)
++- **Week 1 — Fundamentals:** UI/UX checks, first bug reports, base test cases, DevTools basics
++- **Week 2 — Functional Testing:** validation, negative/boundary scenarios, extended test cases
++- **Week 3 — API + HTTP Status:** Postman + DevTools Network, status codes (200–503), auth/permission edges
 
 ---
 
