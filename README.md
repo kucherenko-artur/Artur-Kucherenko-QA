@@ -1,10 +1,3 @@
-<h1 align="center">Artur Kucherenko — QA Engineer Portfolio</h1>
-
-<p align="center">
-  <strong>
-    Practical QA portfolio with real bug reports, structured test cases, API testing, and DevTools investigations — built to showcase professional QA skills.
-  </strong>
-</p>
 
 <p align="center">
   <a href="https://github.com/kucherenko-artur/Artur-Kucherenko-QA">
@@ -13,22 +6,15 @@
 </p>
 
 <p align="center">
-  <a href="./BugReports/">
-    <img src="./assets/badges/neon/bug.svg" alt="Bug Reporting" height="42" />
-  </a>
-  <a href="./API/">
-    <img src="./assets/badges/neon/api.svg" alt="API Testing" height="42" />
-  </a>
-  <a href="./Week1/">
-    <img src="./assets/badges/neon/manual.svg" alt="Manual Testing" height="42" />
-  </a>
-  <a href="./Docs/">
-    <img src="./assets/badges/neon/docs.svg" alt="Documentation" height="42" />
-  </a>
+  <a href="./BugReports/"><img src="./assets/badges/neon/bug.svg" alt="Bug Reporting" height="42" /></a>
+  <a href="./API/"><img src="./assets/badges/neon/api.svg" alt="API Testing" height="42" /></a>
+  <a href="./Week1/"><img src="./assets/badges/neon/manual.svg" alt="Manual Testing" height="42" /></a>
+  <a href="./Docs/"><img src="./assets/badges/neon/docs.svg" alt="Documentation" height="42" /></a>
 </p>
 
 ---
-# 🧪 Artur Kucherenko — QA Portfolio
+
+# Artur Kucherenko — QA Portfolio
 
 Welcome!  
 This repository contains real, structured QA work including bug reports, API test cases, evidence, and documentation.  
@@ -36,7 +22,7 @@ All materials are prepared in a clean, industry-standard format to demonstrate p
 
 ---
 
-# 👨‍💻 About Me
+# About Me
 
 I am a detail-oriented Quality Assurance specialist with strong analytical skills, the ability to break complex systems into predictable components, and the discipline to document everything clearly and professionally.
 
@@ -48,24 +34,34 @@ I focus on:
 - API testing using DevTools & Fetch  
 - Creating complete evidence packages (screenshots, logs, headers)
 
-My goal is to combine **technical precision** with **logical thinking** to deliver high-quality testing results.
+Based in Canada, open to full-time, remote, or hybrid roles.  
+Work Permit: Active.
 
 ---
 
-# 🛠 Tech Stack & Tools
+# Professional Summary
+
+Quality Assurance Engineer with strong analytical thinking, attention to detail, and the ability to decompose complex systems into clean, testable components.  
+Experienced in API testing, manual testing, bug reporting, and DevTools investigations.
+
+Seeking opportunities to join a product-focused team and contribute to quality, stability, and continuous improvement.
+
+---
+
+# Tech Stack & Tools
 
 **Testing Tools:**  
 - Chrome DevTools  
 - Postman  
 - Fetch API  
 - HAR & Network logs  
-- Browser console diagnostics
+- Browser console diagnostics  
 
 **Documentation:**  
 - Markdown (MD)  
 - PDF reporting  
 - Structured evidence folders  
-- Screenshots with annotations
+- Screenshots with annotations  
 
 **Technologies:**  
 - HTTP / HTTPS  
@@ -73,57 +69,95 @@ My goal is to combine **technical precision** with **logical thinking** to deliv
 - Redirect chains  
 - JSON payloads  
 - API endpoints  
-- Frontend validation logic
+- Frontend validation logic  
 
 ---
 
-# 🗂 Repository Structure
+# Skills Matrix
 
-
-
-Every folder contains:
-- README.md (case description)
-- Evidence (screenshots)
-- Additional documentation (if needed)
+| Skill Category      | Tools / Knowledge                                   | Level     |
+|---------------------|------------------------------------------------------|-----------|
+| Manual Testing      | Test cases, checklists, bug reports                  | ⭐⭐⭐⭐☆ |
+| API Testing         | DevTools, Fetch API, HTTP methods, headers, payloads | ⭐⭐⭐⭐☆ |
+| Debug & Analysis    | Console logs, Network tab, HAR files                 | ⭐⭐⭐⭐☆ |
+| Documentation       | Markdown, PDF structure, clear formatting            | ⭐⭐⭐⭐⭐ |
+| UI/UX Testing       | Layout issues, responsive bugs, validation           | ⭐⭐⭐⭐☆ |
+| Technical Skills    | JSON, REST, HTTP/HTTPS, redirects                    | ⭐⭐⭐⭐☆ |
 
 ---
 
-# 🐛 Bug Reports Overview
+# Repository Structure
+
+Artur-Kucherenko-QA/
+│
+├── API/
+│   └── HTTP Status & Fetch (DevTools)
+│       ├── API_Test_008_Status_401_Unauthorized/
+│       ├── API_Test_009_Status_204_No_Content/
+│       ├── API_Test_010_Redirect_302_Follow/
+│       ├── API_Test_011_Status_418_Im_a_Teapot/
+│       ├── API_Test_012_Status_500_Internal_Server_Error/
+│       ├── API_Test_013_Status_503_Service_Unavailable/
+│       ├── API_Test_014_POST_JSON_200_OK/
+│       └── INDEX.md
+│
+├── BugReports/
+│   ├── BR-001_Search_Suggestions.md
+│   ├── BR-002_UI_Button_Misalignment.md
+│   ├── BR-003_Email_Validation.md
+│   ├── BR-004_Cart_Not_Updating.md
+│   ├── BR-005_UI_Dropdown_Overlap.md
+│   ├── BR-006_Filter_Incorrect_Results.md
+│   ├── BR-007_API_401_Profile.md
+│   ├── BR-008_Responsive_Image_Issue.md
+│   ├── BR-009_Phone_Field_Allows_Letters.md
+│   ├── BR-010_Promo_Banner_Overlap.md
+│   ├── BugReports_Index.md
+│   └── README.md
+│
+├── Week1/
+├── Week2/
+├── Week3/
+│
+└── assets/
+    ├── banner.png
+    └── badges/
+
+---
+
+# Bug Reports Overview
 
 All bug reports follow a unified structure:
 
-- **Title / Summary**  
-- **Preconditions**  
-- **Steps to Reproduce**  
-- **Expected Result**  
-- **Actual Result**  
-- **Severity & Priority**  
-- **Environment**  
-- **Evidence (screenshots / logs)**
+- Title / Summary  
+- Preconditions  
+- Steps to Reproduce  
+- Expected Result  
+- Actual Result  
+- Severity & Priority  
+- Environment  
+- Evidence (screenshots / logs)
 
 Severity levels:
 
 | Severity | Meaning |
 |----------|---------|
 | Critical | Blocks core functionality |
-| High | Significant functional issue |
-| Medium | UX or workflow affected |
-| Low | Minor UI inconsistency |
+| High     | Significant functional issue |
+| Medium   | UX or workflow affected |
+| Low      | Minor UI inconsistency |
 
 Priority levels:
 
 | Priority | Meaning |
 |----------|---------|
-| High | Must be fixed ASAP |
+| High   | Must be fixed ASAP |
 | Medium | Fix before release |
-| Low | Can wait |
-
-You can open the full list here:  
-👉 **BugReports/BugReports_Index.md**
+| Low    | Can wait |
 
 ---
 
-# 🌐 API Test Cases
+# API Test Cases
 
 Each API case includes:
 
@@ -143,22 +177,21 @@ API tests included:
 - 418 I’m a Teapot  
 - 500 Internal Server Error  
 - 503 Service Unavailable  
-- POST JSON → 200 OK
+- POST JSON → 200 OK  
 
 ---
 
-# 📞 Contact
+# Contact
 
-If you would like to connect or review work samples:
-
-**Email:** Kucherenko1988artur1988@gmail.com  
-**GitHub:** https://github.com/kucherenko-artur
+Email: Kucherenko1988artur1988@gmail.com  
+GitHub: https://github.com/kucherenko-artur  
 
 ---
 
-# ⭐ Final Notes
+# Final Notes
 
 This portfolio is built to show:
+
 - Consistency  
 - Accuracy  
 - Clear test thinking  
@@ -167,4 +200,5 @@ This portfolio is built to show:
 - Real evidence, not synthetic examples  
 
 Thank you for reviewing this portfolio!
+
 
