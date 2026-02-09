@@ -1,7 +1,10 @@
 <h1 align="center">Artur Kucherenko — QA Engineer Portfolio</h1>
 <p align="center">
-  <img src="./assets/banner.png" width="340" style="border-radius:16px;" />
+  <a href="https://github.com/kucherenko-artur/Artur-Kucherenko-QA">
+    <img src="./assets/banner.png" width="340" style="border-radius:16px; display:block;" alt="QA Portfolio">
+  </a>
 </p>
+
 <p align="center">
   <a href="./BugReports/">
     <img src="./assets/badges/neon/bug.svg" alt="Bug Reporting" height="42">
