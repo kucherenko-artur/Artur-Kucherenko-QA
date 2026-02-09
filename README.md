@@ -26,7 +26,9 @@
     <img src="./assets/badges/neon/docs.svg" alt="Documentation" height="42" />
   </a>
 </p>
+
 ---
+
 ## Featured work
 - ⭐ Bug Report (PDF): ./BugReports/BR-003_Email_Validation.pdf
 - ⭐ Test Case (functional): ./Week2/TestCases/2026-01-21_TC-0202_Search_field_accepts_typing_and_navigates_to_results.md
@@ -151,6 +153,19 @@ This portfolio was created through a structured 3-week workflow combining:
 All testing artifacts were produced manually using industry-standard QA practices.
 
 ---
+## Additional Bug Reports
+
+- **UI Testing Playground**
+  - `BugReports/BR-011_UITAP_ProgressBar_Exceeds100.md`
+  - `BugReports/BR-012_UITAP_Upload_TextInvisible.md`
+  - `BugReports/BR-013_UITAP_VerifyText_InconsistentSampleText.md`
+
+- **ToolsQA / DemoQA**
+  - `BugReports/BR-014_ToolsQA_AdsOverlay_ConsoleErrors.md`
+
+### Evidence & Environment
+- `Evidence/Environment/ENV_2026-02-09_snapshot.md`
+- `Evidence/Screenshots/Raw/`
 
 ## ✉️ Contact
 📧 **Email:** kucherenko1988artur1988@gmail.com  
