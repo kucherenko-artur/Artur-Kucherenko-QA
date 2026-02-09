@@ -56,11 +56,17 @@
  - 📂 **[Week 3](Week3/)** — API + HTTP Status  
  - 📸 **[Evidence](Evidence/)** — Screenshots, Videos  
  - 📄 **[Docs](Docs/)** — Templates & Instructions  
-+
-+### 📌 Weeks (what’s inside)
-+- **Week 1 — Fundamentals:** UI/UX checks, first bug reports, base test cases, DevTools basics
-+- **Week 2 — Functional Testing:** validation, negative/boundary scenarios, extended test cases
-+- **Week 3 — API + HTTP Status:** Postman + DevTools Network, status codes (200–503), auth/permission edges
+
+### 📌 Weeks – What’s Inside
+
+**Week 1 — Fundamentals**  
+UI/UX checks, first bug reports, basic test cases, DevTools basics  
+
+**Week 2 — Functional Testing**  
+Validation, edge/boundary testing, negative scenarios, extended structured test cases  
+
+**Week 3 — API + HTTP Status**  
+Postman + DevTools Network, 200–503 code analysis, auth/permissions testing, schema sanity  
 
 ---
 
