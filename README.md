@@ -188,6 +188,24 @@ Each bug report follows a consistent format:
 
 ---
 
+# 🛠️ How This Portfolio Was Built
+
+This portfolio was created through a structured 3-week workflow combining:
+
+- Real-world UI/UX & functional testing  
+- Exploratory testing on live environments  
+- API testing using Postman & DevTools  
+- HTTP status analysis and edge-case validation  
+- Structured bug reporting (Markdown + PDF)  
+- Test case design with Preconditions, Steps, Expected Results  
+- Evidence collection (screenshots, recordings)
+
+All testing artifacts were produced manually using industry-standard QA practices.  
+The structure reflects how QA teams organize documentation inside real projects — clear, reproducible, and easy for recruiters and engineers to review.
+
+---
+
+
 # ✉️ Contact
 📧 **Email:** kucherenko1988artur1988@gmail.com  
 
