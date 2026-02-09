@@ -26,13 +26,11 @@
     <img src="./assets/badges/neon/docs.svg" alt="Documentation" height="42" />
   </a>
 </p>
+---
 ## Featured work
 - ⭐ Bug Report (PDF): ./BugReports/BR-003_Email_Validation.pdf
 - ⭐ Test Case (functional): ./Week2/TestCases/2026-01-21_TC-0202_Search_field_accepts_typing_and_navigates_to_results.md
 - ⭐ API / DevTools (302 redirect): ./API/HTTP Status & Fetch (DevTools)/API_Test_010_Redirect_302_Follow/README.md
-
----
-
 ## Highlights
 - ✅ **10+ Bug Reports** (Markdown + PDF): Steps, Expected/Actual, Severity/Priority, Environment, Evidence  
 - ✅ **Structured Test Cases** (Weeks 1–3): Preconditions, Steps, Expected Results, Negative Scenarios  
