@@ -1,8 +1,7 @@
-# BR-002 — Add-to-Cart Button Misalignment on Product Page
+# BR-002 —BR-00X — Secure Page Accessible via Browser Back After Logout
 
-Severity: Medium  
-Severity Justification: Although functionality is not broken, the issue affects visual consistency of a core revenue-generating element, potentially impacting user trust and conversion.  
-Priority: Medium  
+Severity: High  
+Severity Justification: High severity because a previously authenticated secure page remains accessible after logout via browser back navigation. This indicates improper session invalidation or missing cache-control headers, potentially exposing sensitive information to unauthorized users.
 Status: Open  
 Component: UI / Layout  
 Environment: Windows 11, Chrome 121
@@ -10,7 +9,7 @@ Environment: Windows 11, Chrome 121
 ---
 
 ## Summary
-The Add-to-Cart button appears misaligned relative to other UI elements.
+After logging out, the protected /secure page can still be accessed using the browser Back button without re-authentication.
 
 ---
 
@@ -21,21 +20,58 @@ This creates a visual imbalance, making the UI look inconsistent.
 ---
 
 ## Steps to Reproduce
-1. Open any product page.
-2. Scroll to the product details.
-3. Observe the placement of the Add-to-Cart button.
-
----
+1. Open: https://the-internet.herokuapp.com/login
+2. Enter valid credentials:
+   - Username: tomsmith
+   - Password: SuperSecretPassword!
+3. Click **Login**.
+4. Confirm the "Secure Area" page is displayed with message:
+   "You logged into a secure area!"
+5. Open **Browser Console (F12)** and observe console errors.
+6. Click **Logout**.
+7. Click the browser **Back** button.
+8. Observe that the "Secure Area" page content is displayed again.
+9. Press **Refresh (F5)**.
+10. Observe red message:
+    "You must login to view the secure area!"
 
 ## Expected Result
-The button should align horizontally with adjacent UI components.
-
----
+After logout, protected content must not be accessible.
+Using the browser Back button should not display the Secure Area page content.
 
 ## Actual Result
-The button is shifted downward by ~2–4 px.
+After clicking Back, the Secure Area page content is temporarily displayed (likely from browser cache).
+After refreshing the page, access is denied and user is redirected to Login Page.
+
+## Severity
+Informational
+
+## Severity Justification
+There is no real security bypass — access is correctly denied after page refresh.
+However, displaying protected content after logout (via browser cache) may cause confusion and represents a potential UX/security concern.
+
+## Evidence
+
+### 1. Login Page – Credentials Entered
+![Login Page – Credentials Entered](../../assets/BR-002/BR-002_LoginPage_Credentials_Filled.png)
 
 ---
 
-## Evidence
-- Screenshot: `Button_Misalignment.png`
+### 2. Secure Area – Successful Login
+![Secure Area – Successful Login](../../assets/BR-002/BR-002_SecureArea_SuccessLogin.png)
+
+---
+
+### 3. Secure Area – Console Errors Visible
+![Secure Area – Console Errors Visible](../../assets/BR-002/BR-002_SecureArea_Console_Errors.png)
+
+---
+
+### 4. Login Page – After Logout
+![Login Page – After Logout](../../assets/BR-002/BR-002_LoginPage_AfterLogout.png)
+
+---
+
+### 5. Access Denied Message After Refresh
+![Access Denied Message](../../assets/BR-002/BR-002_LoginPage_AccessDenied_Message.png)
+
