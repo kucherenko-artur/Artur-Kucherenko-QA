@@ -1,6 +1,7 @@
 # BR-003 — Email Field Accepts Invalid Format
 
-**Severity:** Medium  
+Severity: Medium  
+Severity Justification: The issue does not block form submission, but it allows invalid user data to be stored, which may impact communication and system data integrity.  
 **Priority:** High  
 **Status:** Open  
 **Component:** Form Validation  
