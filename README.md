@@ -115,6 +115,21 @@ All bug reports follow a unified structure:
 
 ---
 
+## 🐞 Bug Reports
+
+- [BR-001 – Search Suggestions](./BugReports/BR-001_Search_Suggestions.md)
+- [BR-002 – UI Button Misalignment](./BugReports/BR-002_UI_Button_Misalignment.md)
+- [BR-003 – Email Validation](./BugReports/BR-003_Email_Validation.md)
+- [BR-004 – Cart Not Updating](./BugReports/BR-004_Cart_Not_Updating.md)
+- [BR-005 – UI Dropdown Overlap](./BugReports/BR-005_UI_Dropdown_Overlap.md)
+- [BR-006 – Filter Incorrect Results](./BugReports/BR-006_Filter_Incorrect_Results.md)
+- [BR-007 – API 401 Profile](./BugReports/BR-007_API_401_Profile.md)
+- [BR-008 – Responsive Image Issue](./BugReports/BR-008_Responsive_Image_Issue.md)
+- [BR-009 – Phone Field Allows Letters](./BugReports/BR-009_Phone_Field_Allows_Letters.md)
+- [BR-010 – Promo Banner Overlap](./BugReports/BR-010_Promo_Banner_Overlap.md)
+
+---
+
 ## 🌐 API Test Cases
 
 Includes tests for:
