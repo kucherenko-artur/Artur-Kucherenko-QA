@@ -1,6 +1,7 @@
 # BR-007 — Profile API Returns 401 for Logged-In User
 
 **Severity:** Critical  
+Severity Justification: Authenticated users cannot access their profile data, breaking core account functionality and session logic.
 **Priority:** High  
 **Status:** Open  
 **Component:** API / Authentication
