@@ -1,10 +1,11 @@
 # BR-002 — Add-to-Cart Button Misalignment on Product Page
 
-**Severity:** Low  
-**Priority:** Medium  
-**Status:** Open  
-**Component:** UI / Layout  
-**Environment:** Windows 11, Chrome 121
+Severity: Medium  
+Severity Justification: Although functionality is not broken, the issue affects visual consistency of a core revenue-generating element, potentially impacting user trust and conversion.  
+Priority: Medium  
+Status: Open  
+Component: UI / Layout  
+Environment: Windows 11, Chrome 121
 
 ---
 
