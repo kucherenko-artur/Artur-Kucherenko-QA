@@ -1,6 +1,9 @@
 # BR-005 — Dropdown Overlaps Other UI Elements
 
-**Severity:** Low  
+**Severity:** Low 
+
+**Severity Justification:** The issue affects visual layout but does not block functionality.
+
 **Priority:** Low  
 **Status:** Open  
 **Component:** UI / Layout
@@ -13,7 +16,7 @@ Dropdown menu overlaps UI elements underneath it, hiding content.
 ---
 
 ## Description
-When the dropdown expands, it visually overlaps text or buttons behind it due to missing z-index or padding.
+When the dropdown expands, it overlaps underlying UI elements, partially hiding text or buttons behind it.
 
 ---
 
