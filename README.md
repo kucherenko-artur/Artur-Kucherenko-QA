@@ -6,6 +6,10 @@ Practical QA portfolio with real bug reports, structured test cases, API testing
 
 ---
 
+## 🎯 Key Strength
+
+Strong focus on reproducibility, clarity, and structured defect communication — ensuring that every issue can be reliably reproduced and understood by developers.
+
 ## 🔎 What This Portfolio Demonstrates
 
 - Structured bug reporting following industry standards
