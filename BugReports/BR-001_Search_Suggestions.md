@@ -1,6 +1,5 @@
 **Severity:** High  
-**Severity Justification:** Core navigation functionality is impacted, directly affecting product discovery and conversion.
-
+Severity Justification: Core navigation functionality is impacted, directly affecting product discovery and conversion.
 **Priority:** High  
 **Status:** Open  
 **Component:** Search  
