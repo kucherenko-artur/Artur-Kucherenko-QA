@@ -14,8 +14,9 @@ After logging out, the protected /secure page can still be accessed using the br
 ---
 
 ## Description
-A layout shift occurs in the product page card. The button is slightly lower than the product rating and price elements.
-This creates a visual imbalance, making the UI look inconsistent.
+After logging out from the Secure Area, the protected page remains accessible when navigating back using the browser Back button.
+Although access is revoked after a manual page refresh, the previously authenticated content is temporarily displayed from browser cache. This behavior may expose sensitive information to unauthorized users and indicates improper cache control handling (missing or incorrect cache headers).
+This behavior indicates improper cache-control implementation and poses a potential security risk by exposing previously authenticated content after session termination.
 
 ---
 
@@ -42,13 +43,6 @@ Using the browser Back button should not display the Secure Area page content.
 ## Actual Result
 After clicking Back, the Secure Area page content is temporarily displayed (likely from browser cache).
 After refreshing the page, access is denied and user is redirected to Login Page.
-
-## Severity
-Informational
-
-## Severity Justification
-There is no real security bypass — access is correctly denied after page refresh.
-However, displaying protected content after logout (via browser cache) may cause confusion and represents a potential UX/security concern.
 
 ## Evidence
 
