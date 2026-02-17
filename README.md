@@ -6,6 +6,14 @@ Practical QA portfolio with real bug reports, structured test cases, API testing
 
 ---
 
+## 🔎 What This Portfolio Demonstrates
+
+- Structured bug reporting following industry standards
+- API testing with HTTP status analysis (401, 204, 302, 500, 503)
+- DevTools-based debugging and request inspection
+- UI / UX defect identification
+- Clear documentation with reproducible steps and evidence
+
 ## 🧪 Artur Kucherenko — QA Portfolio
 
 Welcome!  
