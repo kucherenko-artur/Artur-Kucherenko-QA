@@ -1,8 +1,12 @@
-**Severity:** High  
-Severity Justification: Core navigation functionality is impacted, directly affecting product discovery and conversion.
-**Priority:** High  
+BR-001: Autocomplete response time exceeds acceptable UX threshold under 3G network conditions
+
+**Severity:** Medium
+
+Severity Justification: Medium severity is justified because the functionality remains operational; however, the autocomplete response time (~2 seconds under 3G conditions) exceeds acceptable UX performance thresholds for interactive search, negatively affecting perceived responsiveness and user experience.
+
+**Priority:** Medium
 **Status:** Open  
-**Component:** Search  
+**Component:** Search / Autocomplete  
 
 **Environment:**
 - OS: Windows 11  
@@ -12,33 +16,36 @@ Severity Justification: Core navigation functionality is impacted, directly affe
 ---
 
 ## Summary
-Search suggestions either fail to appear or are delayed by 1–3 seconds during input.
+Search autocomplete suggestions load with noticeable delay (~2 seconds) under limited network conditions.
 
 ---
 
 ## Description
-When the user types into the search bar, autocomplete suggestions either load too slowly or do not appear at all.
-This negatively affects navigation and UX, especially for long queries or mobile users.
+When the user types into the search field under 3G network conditions, autocomplete suggestions take approximately 2 seconds to appear. Timing analysis shows that most of the delay occurs during server response (TTFB), negatively impacting perceived performance and user experience.
 
 ---
 
 ## Steps to Reproduce
-1. Open the website home page.
-2. Click on the search input field.
-3. Begin typing any product name (e.g., "laptop").
-4. Observe the suggestions area.
+Open https://www.webstaurantstore.com
+Open DevTools → Network
+Enable “Disable cache”
+Set throttling to “Fast 3G”
+Type “lap” into the search field
+Observe autocomplete response time
 
 ---
 
 ## Expected Result
-Suggestions should appear instantly (≤ 150 ms).
+Autocomplete suggestions should appear within acceptable UX performance threshold (<500ms recommended for interactive search).
 
 ---
 
 ## Actual Result
-Suggestions appear with a noticeable delay (1–3 seconds) or do not appear at all.
+Autocomplete suggestions appear after ~2 seconds.
+Timing analysis shows ~2.03s Waiting (TTFB).
 
 ---
 
 ## Evidence
-- Screenshot / Video: `Search_Suggestions_Delay.png`
+Network Timing screenshot (TTFB ~2.03s)
+Fetch/XHR request /autosuggest/lap (Status 200)
