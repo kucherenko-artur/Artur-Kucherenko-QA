@@ -9,7 +9,7 @@
 ---
 
 ## Summary
-The email field accepts invalid input formats (missing @ symbol or domain).
+The email validation allows submission of malformed addresses, potentially leading to invalid user data in the system.
 
 ---
 
