@@ -6,10 +6,6 @@ Practical QA portfolio with real bug reports, structured test cases, API testing
 
 ---
 
-## 🎯 Key Strength
-
-Strong focus on reproducibility, clarity, and structured defect communication — ensuring that every issue can be reliably reproduced and understood by developers.
-
 ## 🔎 What This Portfolio Demonstrates
 
 - Structured bug reporting following industry standards
@@ -17,6 +13,10 @@ Strong focus on reproducibility, clarity, and structured defect communication �
 - DevTools-based debugging and request inspection
 - UI / UX defect analysis and reporting
 - Clear documentation with reproducible steps and evidence
+
+## 🎯 Key Strength
+
+Strong focus on reproducibility, clarity, and structured defect communication — ensuring that every issue can be reliably reproduced and understood by developers.
 
 ## 🧪 Artur Kucherenko — QA Portfolio
 
@@ -70,8 +70,6 @@ Driven by precision, logic, and consistency.
 | Documentation       | Markdown, PDF structure, clear formatting            | ⭐⭐⭐⭐⭐ |
 | UI/UX Testing       | Layout issues, responsive bugs, validation           | ⭐⭐⭐⭐☆ |
 | Technical Skills    | JSON, REST, HTTP/HTTPS, redirects                    | ⭐⭐⭐⭐☆ |
-
----
 
 ## 📁 Repository Structure
 
