@@ -1,11 +1,11 @@
-# BR-001 — Search Suggestions Not Displayed Correctly
-
 **Severity:** High  
-Severity Justification: Core navigation functionality is impacted, directly affecting product discovery and conversion.
+**Severity Justification:** Core navigation functionality is impacted, directly affecting product discovery and conversion.
+
 **Priority:** High  
 **Status:** Open  
 **Component:** Search  
-**Environment:**  
+
+**Environment:**
 - OS: Windows 11  
 - Browser: Chrome 121  
 - Date: 2026-02-07
