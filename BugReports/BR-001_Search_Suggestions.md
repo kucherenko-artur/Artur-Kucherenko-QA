@@ -1,6 +1,6 @@
 # BR-001 — Search Suggestions Not Displayed Correctly
 
-**Severity:** Medium  
+**Severity:** High  
 **Priority:** High  
 **Status:** Open  
 **Component:** Search  
