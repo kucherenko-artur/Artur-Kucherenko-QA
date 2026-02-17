@@ -1,53 +1,80 @@
-# BR-003 — Email Field Accepts Invalid Format
+# BR-003 — Forgot Password Returns 500 Internal Server Error
 
-Severity: Medium  
-Severity Justification: The issue does not block form submission, but it allows invalid user data to be stored, which may impact communication and system data integrity.  
+**Severity:** High  
 **Priority:** High  
-**Status:** Open  
-**Component:** Form Validation  
-**Environment:** Chrome 121, Windows 11
+**Component:** Authentication / Backend  
+**Environment:** Windows 11, Chrome 121  
 
 ---
 
 ## Summary
-The email validation allows submission of malformed addresses, potentially leading to invalid user data in the system.
+
+Submitting the "Forgot Password" form results in a **500 Internal Server Error**, indicating a backend failure instead of proper validation or user feedback.
 
 ---
 
 ## Description
-User can enter incorrect email formats such as:
-- `test`
-- `user@mail`
-- `@gmail.com`
 
-The system allows form submission without showing validation errors.
+When a user attempts to reset their password via the "Forgot Password" functionality, the system responds with a 500 Internal Server Error.
+
+This indicates:
+- Missing backend error handling
+- Possible unhandled exception
+- Improper validation or missing configuration
+
+A password recovery feature is a critical authentication component and must not return server errors.
 
 ---
 
 ## Steps to Reproduce
-1. Navigate to Registration / Checkout / Profile Update form.
-2. Enter an invalid email (e.g., `abc`).
-3. Try to submit.
+
+1. Open https://the-internet.herokuapp.com/login  
+2. Click **"Forgot Password"**  
+3. Enter any email address  
+4. Click **Retrieve password**
 
 ---
 
 ## Expected Result
-Invalid email formats should be blocked with a clear error message.
+
+The system should:
+- Display a confirmation message (e.g., "Password reset email sent")
+OR
+- Validate input and return a controlled error message
+
+The page must not return a server error.
 
 ---
 
 ## Actual Result
-Invalid emails are accepted and the form proceeds.
+
+The page returns:
+
+**500 Internal Server Error**
+
+Network tab confirms:
+- Request Method: POST
+- Endpoint: /forgot_password
+- Status Code: 500
 
 ---
 
-### Impact
+## Impact
 
-- Users may not receive notifications or confirmation emails.
-- Account recovery flows may fail.
-- Invalid email data may be stored in the database, affecting data integrity.
+- Password recovery is unusable
+- Authentication flow is broken
+- Indicates backend instability
+- Damages system reliability perception
 
 ---
 
 ## Evidence
-- Screenshot: `Email_Validation_Issue.png`
+
+### 1. Internal Server Error Page
+![Internal Server Error](../Evidence/Raw/BR-003_01_Forgot_Password_Internal_Server_Error.png)
+
+### 2. Network Tab – 500 Status
+![Network 500](../Evidence/Raw/BR-003_02_Network_Request_500.png)
+
+### 3. Request Headers – POST /forgot_password (500)
+![Headers 500](../Evidence/Raw/BR-003_03_Request_Headers_500.png)
