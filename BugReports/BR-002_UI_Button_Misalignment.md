@@ -1,4 +1,4 @@
-# BR-002 —BR-00X — Secure Page Accessible via Browser Back After Logout
+# BR-002 — Secure Page Accessible via Browser Back After Logout
 
 Severity: High  
 Severity Justification: High severity because a previously authenticated secure page remains accessible after logout via browser back navigation. This indicates improper session invalidation or missing cache-control headers, potentially exposing sensitive information to unauthorized users.
@@ -52,26 +52,17 @@ However, displaying protected content after logout (via browser cache) may cause
 
 ## Evidence
 
-### 1. Login Page – Credentials Entered
-![Login Page – Credentials Entered](../../assets/BR-002/BR-002_LoginPage_Credentials_Filled.png)
+1. Login Page  
+![BR-002_01_Login_Page](../Evidence/Screenshots/Raw/BR-002_01_Login_Page.png)
 
----
+2. Credentials Entered  
+![BR-002_02_Credentials_Entered](../Evidence/Screenshots/Raw/BR-002_02_Credentials_Entered.png)
 
-### 2. Secure Area – Successful Login
-![Secure Area – Successful Login](../../assets/BR-002/BR-002_SecureArea_SuccessLogin.png)
+3. Secure Area After Successful Login  
+![BR-002_03_Secure_Area](../Evidence/Screenshots/Raw/BR-002_03_Secure_Area.png)
 
----
+4. Login Page After Logout  
+![BR-002_04_Login_Page_After_Logout](../Evidence/Screenshots/Raw/BR-002_04_Login_Page_After_Logout.png)
 
-### 3. Secure Area – Console Errors Visible
-![Secure Area – Console Errors Visible](../../assets/BR-002/BR-002_SecureArea_Console_Errors.png)
-
----
-
-### 4. Login Page – After Logout
-![Login Page – After Logout](../../assets/BR-002/BR-002_LoginPage_AfterLogout.png)
-
----
-
-### 5. Access Denied Message After Refresh
-![Access Denied Message](../../assets/BR-002/BR-002_LoginPage_AccessDenied_Message.png)
-
+5. Secure Page Accessible via Browser Back  
+![BR-002_05_Back_Button_Returns_Secure_Page](../Evidence/Screenshots/Raw/BR-002_05_Back_Button_Returns_Secure_Page.png)
