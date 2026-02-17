@@ -1,6 +1,7 @@
 # BR-006 — Category Filter Returns Incorrect Results
 
 **Severity:** High  
+Severity Justification: Filtering logic returns incorrect data, directly affecting product discovery and user trust.
 **Priority:** High  
 **Status:** Open  
 **Component:** Filters / Catalog
@@ -13,8 +14,7 @@ Filter displays unrelated products after selecting a specific category.
 ---
 
 ## Description
-Selecting a filter (e.g., “Laptops”) returns results from unrelated categories such as “Keyboards” or “Bags”.
-This breaks navigation logic and leads to failed product discovery.
+Selecting a category filter (e.g., "Laptops") returns products from unrelated categories such as "Keyboards" or "Bags". This indicates incorrect filtering logic and negatively impacts navigation and product discovery.
 
 ---
 
