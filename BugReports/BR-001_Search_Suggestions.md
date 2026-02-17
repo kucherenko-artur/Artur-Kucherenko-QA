@@ -1,6 +1,7 @@
 # BR-001 — Search Suggestions Not Displayed Correctly
 
 **Severity:** High  
+Severity Justification: Core navigation functionality is impacted, directly affecting product discovery and conversion.
 **Priority:** High  
 **Status:** Open  
 **Component:** Search  
@@ -12,7 +13,7 @@
 ---
 
 ## Summary
-Search suggestions fail to appear or appear with significant delay during input.
+Search suggestions either fail to appear or are delayed by 1–3 seconds during input.
 
 ---
 
