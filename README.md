@@ -2,6 +2,8 @@
 
 Practical QA portfolio with real bug reports, structured test cases, API testing, and DevTools investigations — built to showcase professional QA skills.
 
+#
+
 ---
 
 ## 🧪 Artur Kucherenko — QA Portfolio
