@@ -40,5 +40,13 @@ Invalid emails are accepted and the form proceeds.
 
 ---
 
+### Impact
+
+- Users may not receive notifications or confirmation emails.
+- Account recovery flows may fail.
+- Invalid email data may be stored in the database, affecting data integrity.
+
+---
+
 ## Evidence
 - Screenshot: `Email_Validation_Issue.png`
