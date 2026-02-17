@@ -46,6 +46,17 @@ Timing analysis shows ~2.03s Waiting (TTFB).
 
 ---
 
+---
+
 ## Evidence
-Network Timing screenshot (TTFB ~2.03s)
-Fetch/XHR request /autosuggest/lap (Status 200)
+
+### Network Timing Analysis (3G)
+
+![BR-001 Autocomplete TTFB 2.03s](../Evidence/BR-001_Autocomplete_TTFB_3G_2.03s.png)
+
+**Observed metrics:**
+- Total: ~2.04s
+- Waiting (TTFB): ~2.03s
+- Status: 200 OK
+- Endpoint: /autosuggest/lap
+
