@@ -1,9 +1,16 @@
 # BR-003 — Forgot Password Returns 500 Internal Server Error
 
-**Severity:** High  
-**Priority:** High  
-**Component:** Authentication / Backend  
-**Environment:** Windows 11, Chrome 121  
+**Severity:** Critical (S1)
+
+**Severity Justification:**  
+The “Forgot Password” functionality is a core authentication feature. If the system responds with a 500 Internal Server Error during a password reset attempt, users are blocked from regaining access to their accounts. There is no workaround available, and this directly affects security, account accessibility, and system reliability. Because the issue breaks a critical authentication flow and prevents legitimate users from logging in, severity is classified as **Critical (S1)**.
+
+**Priority:** High (P1)
+
+**Priority Justification:**  
+Password reset issues directly affect user access and support workloads. A 500 server error must be fixed before release to ensure account recovery works reliably and does not generate customer lockouts. Therefore, priority is classified as **High (P1)**.
+
+**status:** Open
 
 ---
 
