@@ -1,7 +1,12 @@
 # BR-002 — Secure Page Accessible via Browser Back After Logout
 
 Severity: High  
-Severity Justification: High severity because a previously authenticated secure page remains accessible after logout via browser back navigation. This indicates improper session invalidation or missing cache-control headers, potentially exposing sensitive information to unauthorized users.
+
+Severity Justification: This issue exposes previously authenticated secure content through browser back navigation after logout. Although the page refresh eventually enforces authentication, the temporary exposure of protected data creates a security risk. Since this affects confidentiality and may lead to unauthorized access of sensitive information, the severity is classified as High (S1).
+
+Priority Justification:
+Because the defect can reveal sensitive user information and violates expected session handling and cache-control policies, it requires prompt attention. Any exposure of protected pages, even briefly, increases the risk of data leakage and compliance violations. Therefore, the priority is set to High (P1).
+
 Status: Open  
 Component: UI / Layout  
 Environment: Windows 11, Chrome 121
