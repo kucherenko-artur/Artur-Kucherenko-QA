@@ -3,7 +3,10 @@
 **Severity:** High  
 **Severity Justification:**  
 Changing product quantity directly affects the total amount the customer must pay. If the total price does not update after modifying the quantity, it may lead to incorrect charges, financial loss for the store, and confusion for the user. Since the issue impacts the core checkout flow and can result in incorrect order totals, the severity is classified as **High (S2)**.
-**Priority:** High  
+**Priority:** High 
+
+Priority Justification: This issue affects the checkout flow and can cause customers to see incorrect total amounts during purchase. Even though the bug does not block the checkout entirely, it creates financial discrepancies and reduces user trust. Since incorrect pricing can directly impact conversions and business revenue, the priority is set to High (P2) to ensure timely resolution.
+
 **Status:** Open  
 **Component:** Cart / Checkout
 
