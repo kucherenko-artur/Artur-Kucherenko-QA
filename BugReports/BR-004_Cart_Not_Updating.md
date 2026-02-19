@@ -37,4 +37,4 @@ Total price remains unchanged until manual page reload.
 ---
 
 ## Evidence
-- Screenshot: `Cart_Not_Updating.png`
+- Screenshot: BR-004_Cart_Quantity_Not_Updating.png
