@@ -5,6 +5,10 @@ BR-001: Autocomplete response time exceeds acceptable UX threshold under 3G netw
 Severity Justification: Medium severity is justified because the functionality remains operational; however, the autocomplete response time (~2 seconds under 3G conditions) exceeds acceptable UX performance thresholds for interactive search, negatively affecting perceived responsiveness and user experience.
 
 **Priority:** Medium
+
+Severity Justification:
+Autocomplete delay does not break core functionality, but it directly impacts the user experience (UX) for interactive search. A noticeable delay (~2 seconds) increases perceived slowness, reduces responsiveness, and may cause users to assume the search is not working. Since the issue degrades usability without blocking functionality, the severity is classified as Medium (S2).
+
 **Status:** Open  
 **Component:** Search / Autocomplete  
 
