@@ -1,6 +1,8 @@
 # BR-004 — Cart Quantity Not Updating
 
 **Severity:** High  
+**Severity Justification:**  
+Changing product quantity directly affects the total amount the customer must pay. If the total price does not update after modifying the quantity, it may lead to incorrect charges, financial loss for the store, and confusion for the user. Since the issue impacts the core checkout flow and can result in incorrect order totals, the severity is classified as **High (S2)**.
 **Priority:** High  
 **Status:** Open  
 **Component:** Cart / Checkout
@@ -37,4 +39,5 @@ Total price remains unchanged until manual page reload.
 ---
 
 ## Evidence
-- Screenshot: BR-004_Cart_Quantity_Not_Updating.png
+
+![Cart Quantity Not Updating](../Evidence/Screenshots/Raw/BR-004_Cart_Quantity_Not_Updating.png)
