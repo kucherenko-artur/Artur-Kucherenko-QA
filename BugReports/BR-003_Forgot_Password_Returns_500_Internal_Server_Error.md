@@ -1,4 +1,4 @@
-# BR-003 — Forgot Password Returns 500 Internal Server Error
+## BR-003 — Forgot Password Returns 500 Internal Server Error
 
 **Severity:** Critical (S1)
 
@@ -78,10 +78,23 @@ Network tab confirms:
 ## Evidence
 
 ### 1. Internal Server Error Page
-![Internal Server Error](../Evidence/Raw/BR-003_01_Forgot_Password_Internal_Server_Error.png)
+![Internal Server Error Page](/Evidence/Screenshots/Raw/BR-003_01_Forgot_Password_Internal_Server_Error_Page.png)
 
-### 2. Network Tab – 500 Status
-![Network 500](../Evidence/Raw/BR-003_02_Network_Request_500.png)
+### 2. Network Tab — 500 Status
+![Network Request 500](/Evidence/Screenshots/Raw/BR-003_02_Network_Request_500.png)
 
-### 3. Request Headers – POST /forgot_password (500)
-![Headers 500](../Evidence/Raw/BR-003_03_Request_Headers_500.png)
+### 3. Request Headers — POST /forgot_password
+![Request Headers 500](/Evidence/Screenshots/Raw/BR-003_03_Request_Headers_500.png)
+
+## Conclusion
+
+The “Forgot Password” endpoint fails with a 500 Internal Server Error, breaking the entire account recovery workflow.  
+This indicates an unhandled server-side exception or missing input validation during the password reset request.
+
+As a result:
+- Password recovery is completely unusable  
+- Authentication flow is partially broken  
+- Backend stability is compromised  
+- Users perceive the system as unreliable  
+
+To resolve the issue, the server must implement proper input validation, structured error handling, and ensure that the `/forgot_password` endpoint returns a controlled 4xx error instead of a 500 server failure.
