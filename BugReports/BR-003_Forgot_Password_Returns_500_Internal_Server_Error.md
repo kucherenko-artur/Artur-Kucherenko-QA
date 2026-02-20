@@ -81,7 +81,7 @@ Network tab confirms:
 ![Internal Server Error Page](/Evidence/Screenshots/Raw/BR-003_01_Forgot_Password_Internal_Server_Error_Page.png)
 
 ### 2. Network Tab — 500 Status
-![Network Request 500](/Evidence/Screenshots/Raw/BR-003_02_Network_Request_500.png)
+![Network Request 500](/Evidence/Screenshots/Raw/BR-003_02_Forgot_Password_500_Status.png)
 
 ### 3. Request Headers — POST /forgot_password
 ![Request Headers 500](/Evidence/Screenshots/Raw/BR-003_03_Request_Headers_500.png)
