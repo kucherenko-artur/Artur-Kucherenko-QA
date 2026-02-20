@@ -72,16 +72,16 @@ Unrelated products appear in category lists, including:
 
 ## Evidence
 
-![Evidence 01](./BR-006_Wrong_Category_Filter_Evidence_01.png)
-![Evidence 02](./BR-006_Wrong_Category_Filter_Evidence_02.png)
-![Evidence 03](./BR-006_Wrong_Category_Filter_Evidence_03.png)
-![Evidence 04](./BR-006_Wrong_Category_Filter_Evidence_04.png)
-![Evidence 05](./BR-006_Wrong_Category_Filter_Evidence_05.png)
-![Evidence 06](./BR-006_Wrong_Category_Filter_Evidence_06.png)
-![Evidence 07](./BR-006_Wrong_Category_Filter_Evidence_07.png)
-![Evidence 08](./BR-006_Wrong_Category_Filter_Evidence_08.png)
-![Evidence 09](./BR-006_Wrong_Category_Filter_Evidence_09.png)
-![Evidence 10](./BR-006_Wrong_Category_Filter_Evidence_10.png)
+![Evidence 01](../Evidence/Screenshots/Raw/BR-006_Wrong_Category_Filter_Evidence_01.png)
+![Evidence 02](../Evidence/Screenshots/Raw/BR-006_Wrong_Category_Filter_Evidence_02.png)
+![Evidence 03](../Evidence/Screenshots/Raw/BR-006_Wrong_Category_Filter_Evidence_03.png)
+![Evidence 04](../Evidence/Screenshots/Raw/BR-006_Wrong_Category_Filter_Evidence_04.png)
+![Evidence 05](../Evidence/Screenshots/Raw/BR-006_Wrong_Category_Filter_Evidence_05.png)
+![Evidence 06](../Evidence/Screenshots/Raw/BR-006_Wrong_Category_Filter_Evidence_06.png)
+![Evidence 07](../Evidence/Screenshots/Raw/BR-006_Wrong_Category_Filter_Evidence_07.png)
+![Evidence 08](../Evidence/Screenshots/Raw/BR-006_Wrong_Category_Filter_Evidence_08.png)
+![Evidence 09](../Evidence/Screenshots/Raw/BR-006_Wrong_Category_Filter_Evidence_09.png)
+![Evidence 10](../Evidence/Screenshots/Raw/BR-006_Wrong_Category_Filter_Evidence_10.png)
 
 ---
 
