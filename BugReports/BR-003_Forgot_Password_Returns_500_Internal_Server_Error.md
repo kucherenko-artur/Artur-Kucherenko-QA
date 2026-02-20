@@ -84,7 +84,7 @@ Network tab confirms:
 ![Network Request 500](/Evidence/Screenshots/Raw/BR-003_02_Forgot_Password_500_Status.png)
 
 ### 3. Request Headers — POST /forgot_password
-![Request Headers 500](/Evidence/Screenshots/Raw/BR-003_03_Request_Headers_500.png)
+![Request Headers 500](/BR-003_03_Forgot_Password_500_Headers.png)
 
 ## Conclusion
 
