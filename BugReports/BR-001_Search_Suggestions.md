@@ -52,11 +52,17 @@ Timing analysis shows ~2.03s Waiting (TTFB).
 
 ---
 
-## Evidence
+## 🧾 Evidence
 
-### Network Timing Analysis (3G)
+### 📡 Network Timing Analysis (3G)
 
-![BR-001 Autocomplete TTFB 2.03s](../Evidence/BR-001_Autocomplete_TTFB_3G_2.03s.png)
+![BR-001 Autocomplete TTFB 3G 2.03s](../Evidence/Screenshots/Raw/BR-001_Autocomplete_TTFB_3G_2.03s.png)
+
+**Observed metrics:**
+- **Total:** ~2.04s  
+- **Waiting (TTFB):** ~2.03s  
+- **Status:** 200 OK  
+- **Endpoint:** `/autosuggest/lap`
 
 **Observed metrics:**
 - Total: ~2.04s
