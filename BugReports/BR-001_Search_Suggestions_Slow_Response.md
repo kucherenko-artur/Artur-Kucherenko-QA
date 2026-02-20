@@ -70,4 +70,11 @@ Timing analysis shows ~2.03s Waiting (TTFB).
 - Status: 200 OK
 - Endpoint: /autosuggest/lap
 
+## Conclusion
+
+The autocomplete search suggestions demonstrate a severe delay (~2.03s TTFB) under throttled 3G conditions.  
+This performance issue directly impacts UX quality, slows down user interaction, and violates the recommended UX benchmark of <500ms for responsive search.  
+
+The timing analysis confirms that the bottleneck occurs during the initial server response (TTFB), indicating a backend/API latency issue rather than a frontend rendering delay.  
+Fixing this requires backend optimization of `/autosuggest/lap`, improved edge caching, or reduced payload/processing time on the server side.
 
