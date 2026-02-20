@@ -65,3 +65,11 @@ After refreshing the page, access is denied and user is redirected to Login Page
 
 5. Secure Page Accessible via Browser Back  
 ![BR-002_05_Back_Button_Returns_Secure_Page](../Evidence/Screenshots/Raw/BR-002_05_Back_Button_Returns_Secure_Page.png)
+
+## Conclusion
+
+This defect demonstrates that the protected “Secure Area” page remains accessible via the browser Back button after logout, without enforcing a fresh authentication check.  
+As a result, an attacker with access to the user’s device or browser session history could reopen sensitive content even after the user believes they have securely logged out.
+
+The behavior indicates that session invalidation and/or authorization checks are not consistently enforced on every request to the secure page, and that browser caching is not properly controlled.  
+To mitigate this issue, the secure area must perform a server-side authentication check on each request and redirect unauthenticated users to the login page, combined with appropriate `Cache-Control`, `Pragma`, and `Expires` headers to prevent sensitive pages from being served from the browser cache after logout.
