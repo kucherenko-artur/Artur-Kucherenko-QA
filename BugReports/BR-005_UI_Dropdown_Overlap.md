@@ -43,8 +43,23 @@ The dropdown visually overlaps underlying UI elements, partially hiding the cont
 ## Expected Result:
 Dropdown should not overlap underlying UI elements. Content beneath the dropdown must remain readable.
 
-### Evidence
+## Evidence
 
-#### 1. Dropdown Overlap Screenshot
-![Dropdown Overlap](../../Screenshots/Raw/BR-005_UI_Dropdown_Overlap.png)
+### 1. UI Overlap Screenshot 
+![Dropdown Overlap](../Evidence/Screenshots/Raw/BR-005_UI_Dropdown_Overlap.png)
+
+## Conclusion
+
+The dropdown visually overlaps underlying UI elements, partially hiding important content and reducing readability.  
+While this issue does not block core functionality, it creates layout inconsistency and may negatively affect user experience, especially when users interact with form elements or buttons located beneath the dropdown.
+
+As a result:
+
+- UI elements become partially unreadable  
+- Users may miss important information  
+- Overall interface clarity is reduced  
+- Visual polish and perceived product quality are negatively impacted  
+
+To resolve the issue, the dropdown should appear above other UI components using proper z-index layering, ensuring that no underlying content is obscured during expansion.
+
 
