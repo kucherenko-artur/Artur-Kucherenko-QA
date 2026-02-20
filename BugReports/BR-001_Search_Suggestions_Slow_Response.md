@@ -1,4 +1,4 @@
-BR-001: Autocomplete response time exceeds acceptable UX threshold under 3G network conditions
+## BR-001: Autocomplete response time exceeds acceptable UX threshold under 3G network conditions
 
 **Severity:** Medium
 
