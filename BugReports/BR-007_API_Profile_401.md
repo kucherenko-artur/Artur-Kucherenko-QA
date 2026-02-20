@@ -82,9 +82,14 @@ This indicates that the endpoint treats the request as **unauthenticated**, even
 
 ## Evidence
 
-**Screenshot:**
-  
-![BR-007 Evidence](./Evidence/Screenshots/Raw/BR-007_Profile_API_401.png)
+### Screenshot 01 — Console (JSON error)
+![BR-007 Evidence 01](../Evidence/Screenshots/Raw/BR-007_Profile_API_401_Console.png)
+
+### Screenshot 02 — Network Headers (400 Bad Request)
+![BR-007 Evidence 02](../Evidence/Screenshots/Raw/BR-007_Profile_API_401_Headers.png)
+
+### Screenshot 03 — Network Response (error body)
+![BR-007 Evidence 03](../Evidence/Screenshots/Raw/BR-007_Profile_API_401_Response.png)
 
 ---
 
