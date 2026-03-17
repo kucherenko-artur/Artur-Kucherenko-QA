@@ -29,4 +29,10 @@ Permission bugs
 Auth not enforced
 
 ## Evidence
-streaming_toggle_visible.png
+
+![img1.png](../Evidence/BR-015/img1.png)
+
+![img2.png](../Evidence/BR-015/img2.png)
+
+![streaming_toggle_visible.png](../Evidence/BR-015/streaming_toggle_visible.png)
+

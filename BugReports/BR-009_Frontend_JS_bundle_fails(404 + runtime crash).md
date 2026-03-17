@@ -30,6 +30,10 @@ Full outage scenario
 Broken deployment / DOM mismatch
 
 ## Evidence
-js_404_error.png
-console_null_error.png
-duplicate_var_error.png
+
+![console_null_error.png](../Evidence/BR-009/console_null_error.png)
+
+![duplicate_var_error.png](../Evidence/BR-009/duplicate_var_error.png)
+
+![img1.png](../Evidence/BR-009/img1.png)
+

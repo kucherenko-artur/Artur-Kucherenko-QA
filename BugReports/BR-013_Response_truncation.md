@@ -29,4 +29,8 @@ Core feature broken
 Cutoff failure
 
 ## Evidence
-truncated_response.png
+
+![img1.png](../Evidence/BR-013/img1.png)
+
+![truncated_response.png](../Evidence/BR-013/truncated_response.png)
+

@@ -29,4 +29,8 @@ State leak risk
 Language state leak
 
 ## Evidence
-stray_language_label.png
+
+![img1.png](../Evidence/BR-014/img1.png)
+
+![img2.png](../Evidence/BR-014/img2.png)
+

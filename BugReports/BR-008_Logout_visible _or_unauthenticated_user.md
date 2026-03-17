@@ -31,4 +31,6 @@ Auth issues may expand into security flaws
 Auth state not bound
 
 ## Evidence
-login_state_conflict_1.png
+
+![img1.png](../Evidence/BR-008/img1.png)
+

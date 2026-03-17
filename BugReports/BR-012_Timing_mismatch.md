@@ -29,4 +29,6 @@ Metrics unreliable
 Timer desync
 
 ## Evidence
-timing_mismatch.png
+
+![timing_mismatch.png](../Evidence/BR-012/timing_mismatch.png)
+
